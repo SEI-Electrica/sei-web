@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>SEI Eléctrica y Control | Instalaciones eléctricas industriales en baja tensión</title>
-<meta name="description" content="Instalaciones eléctricas industriales en baja tensión: fuerza, alumbrado, tableros de distribución y control, alimentación de equipos de refrigeración y fuerza para motores en Estado de México y CDMX. Cotización sin costo.">
+<meta name="description" content="Instalaciones eléctricas industriales en baja tensión: fuerza, alumbrado, tableros de distribución y control, alimentación de equipos de refrigeración y fuerza para motores, tierra física, diagnóstico y factor de potencia en Estado de México y CDMX. Cotización sin costo.">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/favicon-192.png" type="image/png" sizes="192x192">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -85,6 +85,7 @@ nav.menu a.btn{color:var(--navy);font-size:16px;padding:10px 18px;min-height:44p
 .cards.two .card .photo{height:260px}
 .card .photo img{width:100%;height:100%;object-fit:cover;object-position:center 40%;transition:transform .6s}
 .card:hover .photo img{transform:scale(1.08)}
+.card .photo.icon,.cards.two .card .photo.icon{height:140px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--navy),var(--navy2))}
 .card .bar{height:4px;background:var(--orange)}
 .card.ctrl .bar{background:var(--navy)}
 .card .body{padding:22px;display:flex;flex-direction:column;gap:12px}
@@ -231,7 +232,7 @@ footer a{color:#C9D1E3}
   <div class="wrap sec-intro reveal">
     <div class="eyebrow">Servicios</div>
     <h2 style="max-width:820px">Desde el alimentador hasta la última salida, con la instalación documentada</h2>
-    <p>Organizamos nuestro trabajo en dos líneas: las instalaciones que llevan la energía a cada equipo, y los tableros y sistemas que la controlan y protegen.</p>
+    <p>Organizamos nuestro trabajo en tres líneas: las instalaciones que llevan la energía a cada equipo, los tableros y sistemas que la controlan y protegen, y el diagnóstico para que tu instalación trabaje mejor y consuma menos.</p>
   </div>
 
   <div class="wrap group">
@@ -293,6 +294,26 @@ footer a{color:#C9D1E3}
           <button type="button" class="btn btn-line toggle" aria-expanded="false" aria-controls="d4">Ver qué incluye +</button>
         </div>
       </article>
+      <article class="card reveal">
+        <div class="photo icon"><svg width="64" height="64" viewBox="0 0 64 64" fill="none" stroke="#FF6B00" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M32 6v26M14 32h36M20 40h24M26 48h12M30 56h4"/></svg></div>
+        <div class="bar"></div>
+        <div class="body">
+          <h4>Sistemas de tierra física</h4>
+          <p>Puesta a tierra de tableros, equipos y estructuras para protección de personas e instalaciones.</p>
+          <div class="detail" id="d7" hidden><div><div class="ph">INGENIERÍA</div><ul><li>Revisión del sistema de tierra existente</li><li>Definición de electrodos y calibre del conductor de puesta a tierra</li></ul></div><div><div class="ph">SUMINISTRO E INSTALACIÓN</div><ul><li>Instalación de electrodos (varillas) y registros</li><li>Conductor de puesta a tierra y conexiones</li><li>Unión de tableros, canalizaciones y equipos al sistema</li></ul></div><div><div class="ph">PRUEBAS Y ENTREGA</div><ul><li>Revisión de continuidad de las conexiones a tierra</li><li>Reporte fotográfico</li></ul></div></div>
+          <button type="button" class="btn btn-line toggle" aria-expanded="false" aria-controls="d7">Ver qué incluye +</button>
+        </div>
+      </article>
+      <article class="card reveal">
+        <div class="photo icon"><svg width="64" height="64" viewBox="0 0 64 64" fill="none" stroke="#FF6B00" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="10" y="10" width="26" height="44" rx="3"/><path d="M25 18l-6 12h8l-5 12"/><path d="M36 26h6a4 4 0 0 1 4 4v14a3 3 0 0 0 6 0V22l-5-6"/></svg></div>
+        <div class="bar"></div>
+        <div class="body">
+          <h4>Alimentación para cargadores de autos eléctricos</h4>
+          <p>Circuito dedicado y conexión de cargadores para flotillas, estacionamientos y empresas.</p>
+          <div class="detail" id="d8" hidden><div><div class="ph">INGENIERÍA</div><ul><li>Revisión de capacidad del tablero existente</li><li>Dimensionamiento del circuito dedicado y su protección</li></ul></div><div><div class="ph">SUMINISTRO E INSTALACIÓN</div><ul><li>Circuito dedicado en 220 V desde tablero</li><li>Canalización y cableado</li><li>Montaje y conexión del cargador</li></ul></div><div><div class="ph">PRUEBAS Y ENTREGA</div><ul><li>Medición de voltaje en el punto de carga</li><li>Prueba de funcionamiento con el vehículo</li></ul></div></div>
+          <button type="button" class="btn btn-line toggle" aria-expanded="false" aria-controls="d8">Ver qué incluye +</button>
+        </div>
+      </article>
     </div>
   </div>
 
@@ -327,7 +348,53 @@ footer a{color:#C9D1E3}
             <button type="button" class="btn btn-line toggle" aria-expanded="false" aria-controls="d6">Ver qué incluye +</button>
           </div>
         </article>
+        <article class="card ctrl reveal">
+          <div class="photo icon"><svg width="64" height="64" viewBox="0 0 64 64" fill="none" stroke="#FF6B00" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="10" width="48" height="44" rx="3"/><path d="M14 36c4-14 8-14 12 0s8 14 12 0 8-14 12 0"/><path d="M14 20h12"/></svg></div>
+          <div class="bar"></div>
+          <div class="body">
+            <h4>Variadores de frecuencia y arrancadores suaves</h4>
+            <p>Arranque controlado y regulación de velocidad de motores en bombas, ventiladores y bandas.</p>
+            <div class="detail" id="d9" hidden><div><div class="ph">INGENIERÍA</div><ul><li>Selección del equipo según el motor y la aplicación</li><li>Diagrama de conexión de fuerza y control</li></ul></div><div><div class="ph">SUMINISTRO E INSTALACIÓN</div><ul><li>Montaje en tablero o gabinete</li><li>Alimentación y conexión al motor</li><li>Cableado de control: arranque, paro y velocidad</li></ul></div><div><div class="ph">PRUEBAS Y ENTREGA</div><ul><li>Configuración básica y puesta en marcha</li><li>Medición de corriente en operación</li></ul></div></div>
+            <button type="button" class="btn btn-line toggle" aria-expanded="false" aria-controls="d9">Ver qué incluye +</button>
+          </div>
+        </article>
       </div>
+    </div>
+  </div>
+
+  <div class="wrap group" style="padding-top:56px;padding-bottom:88px">
+    <div class="group-head reveal"><span class="num">03</span><h3>Diagnóstico y ahorro de energía</h3></div>
+    <div class="cards">
+      <article class="card reveal">
+        <div class="photo icon"><svg width="64" height="64" viewBox="0 0 64 64" fill="none" stroke="#FF6B00" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6h28l-4 22H22z"/><path d="M26 28v8h12v-8"/><path d="M32 36v10"/><circle cx="32" cy="52" r="6"/><path d="M28 14h8"/></svg></div>
+        <div class="bar"></div>
+        <div class="body">
+          <h4>Diagnóstico eléctrico y balanceo de cargas</h4>
+          <p>Medimos tu instalación para detectar sobrecargas, fases desbalanceadas y protecciones mal dimensionadas.</p>
+          <div class="detail" id="d10" hidden><div><div class="ph">MEDICIÓN</div><ul><li>Voltaje y corriente por fase en tableros</li><li>Revisión de interruptores, conductores y conexiones</li></ul></div><div><div class="ph">CORRECCIÓN</div><ul><li>Redistribución de circuitos para balancear fases</li><li>Cambio de protecciones mal dimensionadas</li></ul></div><div><div class="ph">ENTREGA</div><ul><li>Reporte con hallazgos y recomendaciones</li><li>Directorio de circuitos actualizado</li></ul></div></div>
+          <button type="button" class="btn btn-line toggle" aria-expanded="false" aria-controls="d10">Ver qué incluye +</button>
+        </div>
+      </article>
+      <article class="card reveal">
+        <div class="photo icon"><svg width="64" height="64" viewBox="0 0 64 64" fill="none" stroke="#FF6B00" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 30a10 10 0 1 1 20 0c0 5-4 7-4 12H26c0-5-4-7-4-12z"/><path d="M26 48h12M28 54h8"/><path d="M32 6V2M48 14l3-3M16 14l-3-3M54 30h4M6 30h4"/></svg></div>
+        <div class="bar"></div>
+        <div class="body">
+          <h4>Cambio a iluminación LED</h4>
+          <p>Reemplazo de luminarias convencionales por LED para reducir consumo y mantenimiento.</p>
+          <div class="detail" id="d11" hidden><div><div class="ph">INGENIERÍA</div><ul><li>Levantamiento de luminarias existentes</li><li>Propuesta de reemplazo y estimación de ahorro</li></ul></div><div><div class="ph">SUMINISTRO E INSTALACIÓN</div><ul><li>Retiro de luminarias existentes</li><li>Montaje y conexión de luminarias LED</li><li>Revisión de los circuitos de alumbrado</li></ul></div><div><div class="ph">PRUEBAS Y ENTREGA</div><ul><li>Pruebas de encendido</li><li>Comparativo de consumo antes y después</li></ul></div></div>
+          <button type="button" class="btn btn-line toggle" aria-expanded="false" aria-controls="d11">Ver qué incluye +</button>
+        </div>
+      </article>
+      <article class="card reveal">
+        <div class="photo icon"><svg width="64" height="64" viewBox="0 0 64 64" fill="none" stroke="#FF6B00" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 32h22M36 32h22M28 18v28M36 18v28"/><path d="M44 12l6 6-6 6"/></svg></div>
+        <div class="bar"></div>
+        <div class="body">
+          <h4>Corrección del factor de potencia</h4>
+          <p>Bancos de capacitores para evitar cargos por bajo factor de potencia en tu recibo de CFE.</p>
+          <div class="detail" id="d12" hidden><div><div class="ph">INGENIERÍA</div><ul><li>Análisis del recibo de CFE y del factor de potencia</li><li>Cálculo de kVAR y selección del banco de capacitores</li></ul></div><div><div class="ph">SUMINISTRO E INSTALACIÓN</div><ul><li>Montaje del banco de capacitores</li><li>Alimentación y protección del banco</li></ul></div><div><div class="ph">SEGUIMIENTO</div><ul><li>Revisión del factor de potencia en los siguientes recibos</li></ul></div></div>
+          <button type="button" class="btn btn-line toggle" aria-expanded="false" aria-controls="d12">Ver qué incluye +</button>
+        </div>
+      </article>
     </div>
   </div>
 </section>
@@ -438,6 +505,12 @@ footer a{color:#C9D1E3}
             <option>Fuerza para motores / cuarto de máquinas</option>
             <option>Tableros de distribución y control</option>
             <option>Sistema de alarma</option>
+            <option>Sistema de tierra física</option>
+            <option>Cargador de auto eléctrico</option>
+            <option>Variador de frecuencia / arrancador suave</option>
+            <option>Diagnóstico y balanceo de cargas</option>
+            <option>Cambio a iluminación LED</option>
+            <option>Corrección del factor de potencia</option>
           </select>
         </label>
       </div>
@@ -458,7 +531,7 @@ footer a{color:#C9D1E3}
     </div>
     <div style="display:flex;flex-direction:column;gap:6px">
       <b>Servicios</b>
-      <span>Fuerza · Alumbrado industrial · Alimentación de refrigeración y A/C · Fuerza para motores · Tableros de distribución y control · Alarmas</span>
+      <span>Fuerza · Alumbrado industrial · Alimentación de refrigeración y A/C · Fuerza para motores · Tableros de distribución y control · Variadores · Alarmas · Tierra física · Cargadores eléctricos · Diagnóstico · Cambio a LED · Factor de potencia</span>
     </div>
     <div style="display:flex;flex-direction:column;gap:6px">
       <b>Contacto</b>
