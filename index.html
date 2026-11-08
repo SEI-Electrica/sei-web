@@ -74,6 +74,15 @@ nav.menu a.btn{color:var(--navy);font-size:16px;padding:10px 18px;min-height:44p
 @keyframes run{from{left:-30%}to{left:100%}}
 .bolt{animation:pulse 2.6s ease-in-out infinite}
 @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.6;transform:scale(.96)}}
+/* etiqueta fin de semana */
+.weekend{display:inline-flex;align-items:center;gap:12px;align-self:flex-start;background:rgba(255,107,0,.12);border:2px solid var(--orange);border-radius:999px;padding:8px 18px 8px 8px;color:#fff;text-decoration:none;max-width:100%}
+.weekend .ico{flex:none;width:36px;height:36px;border-radius:50%;background:var(--orange);display:flex;align-items:center;justify-content:center}
+.weekend b{display:block;font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:17px;letter-spacing:1.5px;text-transform:uppercase;color:var(--orange);line-height:1.1}
+.weekend small{display:block;font-size:14px;color:#C9D1E3;line-height:1.3}
+.weekend.on-light{background:#FFF3EA;color:var(--navy)}
+.weekend.on-light b{color:var(--orange-dk)}
+.weekend.on-light small{color:var(--muted)}
+.spec-row.hl b{color:var(--orange)}
 .fade1{animation:up .9s ease both}.fade2{animation:up .9s .2s ease both}.fade3{animation:up .9s .4s ease both}
 @keyframes up{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
 .reveal.in{animation:up .8s ease both}
@@ -217,6 +226,10 @@ footer a{color:#C9D1E3}
     <div class="hero-copy">
       <div class="eyebrow light fade1">Instalaciones eléctricas industriales · Baja tensión</div>
       <h1 class="fade2">Instalaciones eléctricas y control para la industria</h1>
+      <div class="weekend fade2" role="note">
+        <span class="ico"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#14213D" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/><path d="M9 15.5l2 2 4-4"/></svg></span>
+        <span><b>Trabajamos sábados y domingos</b><small>Sin detener la operación de tu negocio</small></span>
+      </div>
       <p class="fade3">Diseñamos, instalamos y ponemos en marcha instalaciones eléctricas industriales de baja tensión: alimentadores, tableros, fuerza para motores, alumbrado industrial y alimentación de equipos de refrigeración, en naves, bodegas y plantas del norte del Valle de México.</p>
       <div class="hero-btns fade3">
         <a href="#contacto" class="btn btn-orange">Solicitar cotización sin costo</a>
@@ -230,6 +243,7 @@ footer a{color:#C9D1E3}
       </div>
       <div class="spec-row"><span>Alcance</span><b>Levantamiento, diseño, instalación y pruebas</b></div>
       <div class="spec-row"><span>Entregables</span><b>Diagrama, directorio de circuitos y reporte fotográfico</b></div>
+      <div class="spec-row hl"><span>Horario de obra</span><b>Sábados y domingos, sin parar tu operación</b></div>
       <div class="spec-row"><span>Cobertura</span><b>Estado de México y Ciudad de México</b></div>
     </div>
   </div>
@@ -491,6 +505,10 @@ footer a{color:#C9D1E3}
       <div class="eyebrow">Contacto</div>
       <h2 style="font-size:clamp(32px,4.2vw,48px)">Solicita una cotización sin costo</h2>
       <p>Envíanos fotos, planos o una descripción del trabajo. Te contactamos para agendar el levantamiento y preparar la propuesta técnica.</p>
+      <div class="weekend on-light" role="note">
+        <span class="ico"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#14213D" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/><path d="M9 15.5l2 2 4-4"/></svg></span>
+        <span><b>Servicio en fin de semana</b><small>Programamos tu trabajo en sábado o domingo</small></span>
+      </div>
       <a href="#" class="btn btn-orange wa-link" data-wa-only hidden style="align-self:flex-start">Escribir por WhatsApp</a>
       <div class="contact-data">
         <span data-wa-only hidden>WhatsApp: <a class="wa-link" href="#"><span class="wa-num"></span></a></span>
